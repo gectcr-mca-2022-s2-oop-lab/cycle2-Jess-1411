@@ -14,8 +14,8 @@ class Employee {
 	
 	 public String toString() {
 		 
-		 System.out.println("Employee id Employee name Employee salary");
-		 return eno +"             "+ename+"       "+esalary;
+		 System.out.println("Employee id 	Employee name 	Employee salary");
+		 return eno +"             	"+ename+"       	"+esalary;
 	 }
 	
 	public static void main(String[] args) {
@@ -43,5 +43,5 @@ class Employee {
 		System.out.println("Employee details:\n");
 		for(int i=0;i<n;i++) {
 		System.out.println(arr[i]);
-
+		s.close();
 }}}
